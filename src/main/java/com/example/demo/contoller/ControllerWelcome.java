@@ -24,7 +24,7 @@ public class ControllerWelcome {
 	@RequestMapping(method = RequestMethod.GET,value = "/welcome")
 	public String welcome()
 	{
-		return "welcome to API coding changejjsjlkjsfk";
+		return "welcome to API ";
 	}
 	
 	@PostMapping(value="/file")
