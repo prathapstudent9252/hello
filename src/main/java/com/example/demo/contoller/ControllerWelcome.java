@@ -34,6 +34,8 @@ public class ControllerWelcome {
 		service.cssFileTransefer(file);
 
 		logs.logs("this is first statement");
+		logs.logs("this is first statement2");
+
 		
 		return new ResponseEntity<>("file transfer succesfully.......done !!!!!!!!!!",HttpStatus.CREATED);
 
