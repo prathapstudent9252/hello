@@ -32,8 +32,11 @@ public class ControllerWelcome {
 	public ResponseEntity<String> cssFileTransfer(@RequestParam("file") MultipartFile file)
 	{
 		service.cssFileTransefer(file);
+
+		logs.logs("this is first statement");
 		
 		return new ResponseEntity<>("file transfer succesfully.......done !!!!!!!!!!",HttpStatus.CREATED);
+
 		
 	}
 	
